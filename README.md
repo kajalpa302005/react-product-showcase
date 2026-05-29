@@ -1,16 +1,99 @@
-# React + Vite
+# React Product Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive product showcase application built using React.js and Vite. This project demonstrates React fundamentals including Components, Props, Array Rendering, Reusable UI Design, and CSS Styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Display multiple products using reusable React components
+* Dynamic data rendering using Props
+* Product images and descriptions
+* Old Price and New Price comparison
+* Responsive card-based UI
+* Clean and reusable component architecture
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+│
+├── assets/
+│   ├── Keyboard.jpg
+│   ├── mouse.jpg
+│   ├── pencil.jpg
+│   └── wirelessmouse.jpg
+│
+├── App.jsx
+├── ProductTab.jsx
+├── Product.jsx
+├── Price.jsx
+├── Product.css
+├── App.css
+├── main.jsx
+```
+
+## Concepts Covered
+
+* Functional Components
+* Props
+* Component Reusability
+* Array Mapping using map()
+* Import & Export
+* JSX
+* CSS Styling
+* Image Rendering
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kajalpa302005/react-product-showcase.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd react-product-showcase
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+## Learning Outcomes
+
+Through this project, I learned:
+
+* Creating reusable React components
+* Passing data using Props
+* Rendering dynamic content using arrays
+* Managing project structure in React
+* Using Git and GitHub for version control
+
+## Author
+
+Kajal Pandey
+
+GitHub: https://github.com/kajalpa302005
